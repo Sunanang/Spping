@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
         settings.setJavaScriptCanOpenWindowsAutomatically(true);
         settings.setLoadsImagesAutomatically(true);
         settings.setDomStorageEnabled(true);
-        webView.loadUrl("http://tao.suishenz.com/index.php/m/index/index.html");
+        webView.loadUrl("");
 
         setWebView();
         setWebViewClient();
         setListener();
 
-        setImageUrl("http://tao.suishenz.com/app_api/");
+        setImageUrl("");
 
     }
 
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 webView.setVisibility(View.VISIBLE);
-                webView.loadUrl("http://tao.suishenz.com/index.php/m/index/index.html");
+                webView.loadUrl("");
 
             }
         });
